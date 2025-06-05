@@ -1,0 +1,29 @@
+{
+  "@odata.type": "#NetworkPort.v1_1_0.NetworkPort",
+  "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkPorts/1",
+  "Id": "1",
+  "Name": "Ethernet Port 1",
+  "PhysicalPortNumber": "1",
+  "LinkStatus": "Up",
+  "ActiveLinkTechnology": "Ethernet",
+  "PortMaximumMTU": 9000,
+  "SignalDetected": true,
+  "CurrentLinkSpeedMbps": 10000,
+  "PortType": "TwistedPair",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "AssociatedNetworkAddresses": [
+    "00:1A:2B:3C:4D:5E"
+  ],
+  "LinkNetworkTechnology": "Ethernet",
+  "NetDevFuncMaxBWAlloc": [
+    {
+      "NetworkDeviceFunction": {
+        "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkDeviceFunctions/1"
+      },
+      "MaxBWAllocPercent": 100
+    }
+  ]
+}

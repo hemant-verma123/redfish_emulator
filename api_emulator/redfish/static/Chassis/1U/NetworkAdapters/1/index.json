@@ -1,0 +1,46 @@
+{
+  "@odata.type": "#NetworkAdapter.v1_2_0.NetworkAdapter",
+  "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1",
+  "Id": "1",
+  "Name": "Integrated Ethernet Adapter",
+  "Manufacturer": "ExampleVendor",
+  "Model": "X550-T2",
+  "PartNumber": "X550-T2-INT",
+  "SerialNumber": "SN123456789",
+  "Status": {
+    "State": "Enabled",
+    "Health": "OK"
+  },
+  "Controllers": [
+    {
+      "ControllerId": "NIC-Controller-1",
+      "FirmwarePackageVersion": "1.2.3",
+      "ControllerCapabilities": {
+        "NetworkDeviceFunctions": {
+          "Count": 2
+        },
+        "NetworkPorts": {
+          "Count": 2
+        }
+      },
+      "Links": {
+        "NetworkDeviceFunctions": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkDeviceFunctions/1"
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkDeviceFunctions/2"
+          }
+        ],
+        "NetworkPorts": [
+          {
+            "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkPorts/1"
+          },
+          {
+            "@odata.id": "/redfish/v1/Chassis/1U/NetworkAdapters/1/NetworkPorts/2"
+          }
+        ]
+      }
+    }
+  ]
+}
