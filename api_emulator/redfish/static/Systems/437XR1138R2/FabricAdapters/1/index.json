@@ -1,0 +1,28 @@
+{
+    "@odata.type": "#FabricAdapter.v1_0_0.FabricAdapter",
+    "@odata.id": "/redfish/v1/Systems/437XR1138R2/FabricAdapters/1",
+    "Id": "1",
+    "Name": "Mock Fabric Adapter 1",
+    "Manufacturer": "ExampleFabricTech",
+    "Model": "FX-4000",
+    "SerialNumber": "FAB1234567890",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "FabricType": "Ethernet",
+    "InterfaceEnabled": true,
+    "Controllers": [
+        {
+            "ControllerId": "Controller-1",
+            "FirmwareVersion": "1.0.0",
+            "Ports": [
+                {
+                    "PortId": "1",
+                    "SpeedGbps": 100,
+                    "LinkStatus": "Up"
+                }
+            ]
+        }
+    ]
+}

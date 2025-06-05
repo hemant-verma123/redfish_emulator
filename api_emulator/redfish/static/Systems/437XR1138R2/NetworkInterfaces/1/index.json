@@ -1,0 +1,17 @@
+{
+    "@odata.type": "#NetworkInterface.v1_1_0.NetworkInterface",
+    "@odata.id": "/redfish/v1/Systems/437XR1138R2/NetworkInterfaces/1",
+    "Id": "1",
+    "Name": "Primary Network Interface",
+    "Description": "Mock Ethernet Interface",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "InterfaceEnabled": true,
+    "Links": {
+        "NetworkAdapter": {
+            "@odata.id": "/redfish/v1/Chassis/1/NetworkAdapters/1"
+        }
+    }
+}
