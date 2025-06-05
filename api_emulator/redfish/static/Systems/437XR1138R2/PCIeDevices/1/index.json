@@ -1,0 +1,9 @@
+{
+    "@odata.id": "/redfish/v1/Systems/437XR1138R2/PCIeDevices/1",
+    "@odata.type": "#PCIeDevice.v1_1_0.PCIeDevice",
+    "Id": "1",
+    "Name": "Mock PCIe Device 1",
+    "Manufacturer": "ExampleVendor",
+    "DeviceType": "GPU",
+    "FirmwareVersion": "1.0.0"
+}
